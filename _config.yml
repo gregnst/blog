@@ -1,0 +1,9 @@
+# Site settings
+title: Greg's blog
+author:
+  name: Gregorio Nastasi
+  email: gregorionastasi1@gmail.com
+description: "Blog test - WIP."
+
+# Build settings
+remote_theme: jekyll/minima
