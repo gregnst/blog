@@ -5,11 +5,11 @@ author:
   email: gregorionastasi1@gmail.com
 description: "WIP."
 
-header_links:
-  - title: Home
-    url: /
-  - title: About
-    url: /about.html
+just_the_docs:
+  collections:
+    pages:
+      output: true
+      permalink: /:path/
 
 # Build settings
-remote_theme: jekyll/minima
+theme: just-the-docs
