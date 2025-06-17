@@ -1,6 +1,7 @@
 ---
-layout: custom
+layout: page
 title: About
+permalink: /about
 ---
 
 <img src="https://media.licdn.com/dms/image/v2/C4D03AQH2qTjw4Zg6AQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1652341651338?e=1755734400&v=beta&t=YPNp3EHhIq3nItxOn30hk9JA1KFUYMszYV2KrmueLs8" alt="LinkedIn image" style="float: right; margin-left: 15px; width: 200px;">

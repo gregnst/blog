@@ -250,9 +250,9 @@ Supermercato24 is a unique case in Italy. Launched as an innovative startup in *
 
 ---
 
-# 4. Qualitative Research: In-Depth Interviews
+## 4. Qualitative Research: In-Depth Interviews
 
-## 4.1 Methodology and Structure
+### 4.1 Methodology and Structure
 
 To identify the research objectives for the quantitative section and the most sought-after evaluation items for an online grocery shopping service, five short individual in-depth interviews (in-person and over the phone) were conducted. Each lasted approximately 30 minutes and was recorded.
 
@@ -272,7 +272,7 @@ Most questions were descriptive in nature, encouraging informants to express the
 
 After data collection, I conducted a synthesis and coding process of the interview content. The data reduction phase was mainly carried out through vertical reading, aiming to identify the aforementioned evaluation drivers.
 
-## 4.2 Results
+### 4.2 Results
 
 All five informants were university students aged 22 to 24, living in Milan, and were users (or former users) of online grocery services. Typically, they shop alone or with housemates, sharing product choices and the load. Ease of transport was a central factor in channel selection. Those using public transport or walking to stores shop more frequently (up to 3–4 times per week), while those using a car shop less often but purchase more per trip (once every two weeks or monthly). Even the less frequent shoppers make small additional purchases during the week, especially for perishable items.
 
