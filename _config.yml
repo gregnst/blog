@@ -5,11 +5,8 @@ author:
   email: gregorionastasi1@gmail.com
 description: "WIP."
 
-header_links:
-  - title: Home
-    url: /
-  - title: About
-    url: /about.html
+nav_pages:
+    - about.md
 
 # Build settings
 remote_theme: jekyll/minima

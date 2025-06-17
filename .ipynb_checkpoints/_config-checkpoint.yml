@@ -5,11 +5,8 @@ author:
   email: gregorionastasi1@gmail.com
 description: "WIP."
 
-just_the_docs:
-  collections:
-    pages:
-      output: true
-      permalink: /:path/
+nav_pages:
+    - about.md
 
 # Build settings
-theme: just-the-docs
+remote_theme: jekyll/minima
