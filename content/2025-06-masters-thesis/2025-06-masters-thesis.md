@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: My Master's thesis
 ---
 
 # The relevance of home delivery e-commerce services in the grocery retail industry.
