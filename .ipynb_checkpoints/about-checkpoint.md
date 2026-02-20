@@ -13,7 +13,7 @@ permalink: /about
     <h2 style="margin-top: 0;">Bio</h2>
     <p>
         My name is Gregorio Nastasi, but everyone I work with calls me Greg. <br>
-        I was born in Sicily, Italy, 1995. I graduated with a Bachelor's degree in Management and a Master's degree in Marketing, both from Bocconi University in Milan. I also spent a semester in Lausanne, Switzerland (CH), at HEC (Faculty of Business and Economics) as an exchange student.
+        I was born in Sicily, Italy, 1995. I graduated with a Bachelor's degree in Management and a Master's degree in Marketing, both from Bocconi University in Milan. I also spent a semester in Lausanne, Switzerland (CH), at HEC (Faculty of Business and Economics) as an exchange student. 
     </p>
 </div>
 

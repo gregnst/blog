@@ -11,7 +11,7 @@ In this post, I'll describe causal inference toy analysis hosted in my [queens_g
 ---
 
 ## 0. Summary
-This analysis quantifies the specific impact of the Netflix miniseries The Queen’s Gambit on the popularity of chess. I'll use Bayesian structural time-series models, moving beyond simple line charts to estimate a counterfactual: What would chess interest have looked like in late 2020 if the show had never been released? Using Google Trends data and Lichess game volumes, the analysis provides a statistical smoking gun for the show's influence.
+This analysis quantifies the specific impact of the Netflix miniseries The Queen’s Gambit on the popularity of chess. I'll use Bayesian structural time-series models, moving beyond simple line charts to estimate a counterfactual: What would chess interest have looked like in late 2020 if the show had never been released? Using Wiki page visits, the analysis provides a statistical smoking gun for the show's influence.
 
 ## 1 Why Causal Impact?
 
@@ -66,15 +66,16 @@ I applied the Causal Impact function and you can see the result below:
 ![Alt text](Causal Impact chart.png)
 
 With the function <i>impact.summary('report')</i>, you can read the explanation provided directly by the library.
+
 <i>During the post-intervention period, the response variable had an average value of approx. 8990.02. By contrast, in the absence of an intervention, we would have expected an average response of 4059.16. The 95% interval of this counterfactual prediction is [3154.04, 4968.13].
 Subtracting this prediction from the observed response yields an estimate of the causal effect the intervention had on the
-response variable. This effect is 4930.86 with a 95% interval of [4021.89, 5835.98]. 
+response variable. This effect is 4930.86 with a 95% interval of [4021.89, 5835.98]. </i>
 
-The above results are given in terms of absolute numbers. In relative terms, the response variable showed an increase of <b>+121.48%</b>. The 95% interval of this percentage is [99.08%, 143.77%].
+<i>The above results are given in terms of absolute numbers. In relative terms, the response variable showed an increase of <b>+121.48%</b>. The 95% interval of this percentage is [99.08%, 143.77%].</i>
 
-This means that the positive effect observed during the intervention period is statistically significant and unlikely to be due to random fluctuations. It should be noted, however, that the question of whether this increase also bears substantive significance can only be answered by comparing the absolute effect (4930.86) to the original goal of the underlying intervention.
+<i>This means that the positive effect observed during the intervention period is statistically significant and unlikely to be due to random fluctuations. It should be noted, however, that the question of whether this increase also bears substantive significance can only be answered by comparing the absolute effect (4930.86) to the original goal of the underlying intervention.</i>
 
-The probability of obtaining this effect by chance is very small (Bayesian one-sided tail-area probability p = 0.0).
+<i>The probability of obtaining this effect by chance is very small (Bayesian one-sided tail-area probability p = 0.0).
 This means the causal effect can be considered statistically significant.</i>
 
 ## 5 The importance of Placebo tests
