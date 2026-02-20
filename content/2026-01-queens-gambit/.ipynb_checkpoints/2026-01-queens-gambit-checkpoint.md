@@ -89,5 +89,7 @@ As highlighted in the project's logic, if the model shows a "causal impact" on a
 ---
 
 Sources:
-[Kay H. Brodersen, Fabian Gallusser, Jim Koehler, Nicolas Remy, Steven L. Scott - Inferring causal impact using Bayesian structural time-series models](https://arxiv.org/pdf/1506.00356) - 2015
-[Matheus Facure - Causal Inference in Python](https://www.oreilly.com/library/view/causal-inference-in/9781098140243/) - 2023
+
+Kay H. Brodersen, Fabian Gallusser, Jim Koehler, Nicolas Remy, Steven L. Scott - [Inferring causal impact using Bayesian structural time-series models](https://arxiv.org/pdf/1506.00356) - 2015
+
+Matheus Facure - [Causal Inference in Python](https://www.oreilly.com/library/view/causal-inference-in/9781098140243/) - 2023
