@@ -1,6 +1,7 @@
 ---
 layout: page
 title: A Causal Impact Study of The Queen’s Gambit on Chess
+nav_exclude: true
 ---
 
 # Analyzing the "Anya Taylor-Joy Effect"
