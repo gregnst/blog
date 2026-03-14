@@ -2,10 +2,13 @@
 title: Gregorio Nastasi - personal blog
 author:
   name: Gregorio Nastasi
-description: "WIP."
+description: "Work in progress blog"
 
-nav_pages:
-    - about.md
+# nav_pages:
+#     - about.md
+
+header_pages:
+  - about.md
 
 # Build settings
 remote_theme: jekyll/minima

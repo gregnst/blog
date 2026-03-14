@@ -17,7 +17,7 @@ This analysis quantifies the specific impact of the Netflix miniseries The Queen
 
 Traditional metrics often fail when multiple variables shift at once. In late 2020, we had two massive drivers for chess: the ongoing COVID-19 lockdowns and the release of the show.
 
-We use the [CausalImpact methodology](https://arxiv.org/pdf/1506.00356) because it allows us to create a synthetic control. By picking variables that are correlated with our target (chess) but unaffected by the "treatment" (the show)—such as general interest in other board games—we can predict the baseline trend. The difference between this predicted baseline and the actual observed data is the "causal impact".
+We use the [CausalImpact methodology](https://arxiv.org/pdf/1506.00356) because it is autoregressive and simple to use when we have limited data. By picking variables that are correlated with our target (chess) but unaffected by the "treatment" (the show), such as general interest in other board games, we can predict the baseline trend. The difference between this predicted baseline and the actual observed data is the "causal impact".
 
 ## 2 The Queen’s Gambit Phenomenon
 
@@ -28,6 +28,14 @@ When The Queen’s Gambit premiered on October 23, 2020, it became a cultural ju
 ### 3.1 Data Acquisition
 
 The study pulled daily Wikipedia pageviews for games like Chess, Backgammon, and other hobbies/games. We'll use these for our estimation. This initial exploration was crucial because it confirmed that a simple "before vs. after" comparison would be flawed; we had to account for the fact that chess was already trending upward due to global lockdowns before the show even premiered.
+
+|    date    | Backgammon | Chess | Gardening | Guitar | Origami | Painting | Piano | Rubik's Cube  | Sudoku | Yoga |
+|------------|------------|-------|-----------|--------|---------|----------|-------|---------------|--------|------|
+| 2018-01-01 |    3239    |  4906 |    485    |  2309  |   1031  |   1480   |  1941 |      2361     |  1803  | 3986 |
+| 2018-01-02 |    2480    |  5270 |    568    |  2405  |   1087  |   2154   |  2335 |      2303     |  2097  | 4981 |
+| 2018-01-03 |    2228    |  5040 |    540    |  2504  |   1265  |   2057   |  2295 |      2322     |  1971  | 4867 |
+| 2018-01-04 |    2181    |  5346 |    569    |  2575  |   1142  |   2149   |  2149 |      2337     |  1791  | 4932 |
+| 2018-01-05 |    2153    |  5599 |    501    |  2343  |   1202  |   2159   |  2177 |      2346     |  1922  | 4520 |
 
 ### 3.2 Stationarity and Pre-processing
 
@@ -88,7 +96,7 @@ As highlighted in the project's logic, if the model shows a "causal impact" on a
 
 ---
 
-Sources:
+<b>Sources:</b>
 
 Kay H. Brodersen, Fabian Gallusser, Jim Koehler, Nicolas Remy, Steven L. Scott - [Inferring causal impact using Bayesian structural time-series models](https://arxiv.org/pdf/1506.00356) - 2015
 

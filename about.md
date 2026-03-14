@@ -8,7 +8,7 @@ permalink: /about
 ![Alt text](gn.jpg) -->
 
 <div style="overflow: hidden;">
-    <img src="gn.jpg" alt="Gregorio Nastasi" style="float: right; margin: 0 0 20px 20px; width: 250px; border-radius: 8px;">
+    <img src="gn.jpg" alt="Gregorio Nastasi" style="float: right; margin: 0 0 20px 20px; width: 200px; border-radius: 8px;">
     
     <h2 style="margin-top: 0;">Bio</h2>
     <p>
@@ -21,6 +21,7 @@ After returning to Italy, I started working at Amazon within the Ads org as Anal
 
 My key focus areas is the insights side of online advertising and my skills are related to:
 - analytics
+- causal inference
 - data mining
 - automation
 - data visualization
