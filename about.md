@@ -1,21 +1,30 @@
 ---
 layout: page
 title: About
-permalink: /about
+icon: fas fa-info-circle
+order: 1
 ---
 
-<!-- <img src="https://media.licdn.com/dms/image/v2/C4D03AQH2qTjw4Zg6AQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1652341651338?e=1755734400&v=beta&t=YPNp3EHhIq3nItxOn30hk9JA1KFUYMszYV2KrmueLs8" alt="LinkedIn image" style="float: right; margin-left: 15px; width: 200px;">
-![Alt text](gn.jpg) -->
-
-<div style="overflow: hidden;">
-    <img src="gn.jpg" alt="Gregorio Nastasi" style="float: right; margin: 0 0 20px 20px; width: 200px; border-radius: 8px;">
+<div style="display: flex; gap: 30px; align-items: flex-start;">
+    <div style="flex-shrink: 0;">
+        <img src="{{ '/assets/img/profile.jpg' | relative_url }}" alt="Gregorio Nastasi" 
+             style="width: 200px; height: 200px; border-radius: 10px; 
+                    object-fit: cover; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+    </div>
     
-    <h2 style="margin-top: 0;">Bio</h2>
-    <p>
-        My name is Gregorio Nastasi, but everyone I work with calls me Greg. <br>
-        I was born in Sicily, Italy, 1995. I graduated with a Bachelor's degree in Management and a Master's degree in Marketing, both from Bocconi University in Milan. I also spent a semester in Lausanne, Switzerland (CH), at HEC (Faculty of Business and Economics) as an exchange student. 
-    </p>
+    <div style="flex: 1;">
+        <h2 style="margin-top: 0;">Bio</h2>
+        <p>
+            My name is <strong>Gregorio Nastasi</strong>, but everyone I work with calls me <strong>Greg</strong>.<br>
+            I was born in Sicily, Italy in 1995. I graduated with a Bachelor's degree in Management 
+            and a Master's degree in Marketing, both from <strong>Bocconi University</strong> in Milan. 
+            I also spent a semester in Lausanne, Switzerland at <strong>HEC</strong> 
+            (Faculty of Business and Economics) as an exchange student.
+        </p>
+    </div>
 </div>
+
+---
 
 After returning to Italy, I started working at Amazon within the Ads org as Analytics & Media Manager, a role that was later rebranded as Analytics & Insights Consultant. You can get access to my full resume [here](https://drive.google.com/file/d/15vwOa1MYKfET57H8fS0rTm2RXjxmFXF1/view?usp=sharing).
 

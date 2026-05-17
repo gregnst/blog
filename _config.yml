@@ -1,14 +1,67 @@
 # Site settings
-title: Gregorio Nastasi - personal blog
+title: Gregorio Nastasi
+tagline: Data Science & Causal Inference
+description: "Personal blog exploring data science, causal inference, and analytics"
+url: "https://gregnst.github.io"
+baseurl: "/blog"
+lang: en
+
+# Author information
 author:
   name: Gregorio Nastasi
-description: "Work in progress blog"
+  email: gregorionastasi@gmail.com
+  twitter: ""
+  linkedin: gregorionastasi
 
-# nav_pages:
-#     - about.md
+# Pagination
+paginate: 10
+paginate_path: /page:num/
 
-header_pages:
-  - about.md
+# Avatar & Social
+avatar: /blog/assets/img/profile.jpg
+
+social:
+  links:
+    - https://www.linkedin.com/in/gregorionastasi/
+    - https://rateyourmusic.com/~Perennial_Quest
 
 # Build settings
-remote_theme: jekyll/minima
+remote_theme: cotes2020/jekyll-theme-chirpy@latest
+
+plugins:
+  - jekyll-paginate
+  - jekyll-redirect-from
+  - jekyll-seo-tag
+  - jekyll-archive
+  - jekyll-sitemap
+
+# Chirpy theme configuration
+theme_mode: auto  # light, dark, or auto
+date_format: "%b %d, %Y"
+
+# Only show About in nav (other nav items removed)
+header_pages: []
+
+# Archives configuration
+archives:
+  enabled:
+    - categories
+    - tags
+  layouts:
+    category: archive-category
+    tag: archive-tag
+  permalinks:
+    category: /categories/:name/
+    tag: /tags/:name/
+
+# SEO and social
+# google_site_verification: ""
+# webmaster_verifications:
+#   google: ""
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: post
+      comments: false
