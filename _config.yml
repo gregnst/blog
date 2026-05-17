@@ -31,7 +31,6 @@ remote_theme: pages-themes/minimal@v0.2.0
 
 plugins:
   - jekyll-paginate
-  - jekyll-redirect-from
   - jekyll-seo-tag
   - jekyll-sitemap
 
