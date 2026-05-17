@@ -1,53 +1,72 @@
 # Site settings
-title: Gregorio Nastasi
-tagline: Data Science & Causal Inference
-description: "Personal blog exploring data science, causal inference, and analytics"
-url: "https://gregnst.github.io"
-baseurl: "/blog"
-lang: en
-
-# Author information
+title: Gregorio Nastasi - personal blog
 author:
   name: Gregorio Nastasi
-  email: gregorionastasi@gmail.com
-  twitter: ""
-  linkedin: gregorionastasi
+description: "Work in progress blog"
 
-# Pagination
-paginate: 10
-paginate_path: /page:num/
+# nav_pages:
+#     - about.md
 
-# Avatar & Social
-avatar: /blog/assets/img/profile.jpg
-
-social:
-  links:
-    - https://www.linkedin.com/in/gregorionastasi/
-    - https://rateyourmusic.com/~Perennial_Quest
+header_pages:
+  - about.md
 
 # Build settings
-# Using jekyll-theme-minimal - fully compatible with GitHub Pages
-remote_theme: pages-themes/minimal@v0.2.0
+remote_theme: jekyll/minima
 
-plugins:
-  - jekyll-paginate
-  - jekyll-seo-tag
-  - jekyll-sitemap
 
-# Theme configuration
-date_format: "%b %d, %Y"
 
-# Only show About in nav (other nav items removed)
-header_pages: []
 
-# SEO and social
-google_site_verification: ""
-webmaster_verifications:
-  google: ""
 
-defaults:
-  - scope:
-      path: ""
-    values:
-      layout: post
-      comments: false
+# # Site settings
+# title: Gregorio Nastasi
+# tagline: Data Science & Causal Inference
+# description: "Personal blog exploring data science, causal inference, and analytics"
+# url: "https://gregnst.github.io"
+# baseurl: "/blog"
+# lang: en
+
+# # Author information
+# author:
+#   name: Gregorio Nastasi
+#   email: gregorionastasi@gmail.com
+#   twitter: ""
+#   linkedin: gregorionastasi
+
+# # Pagination
+# paginate: 10
+# paginate_path: /page:num/
+
+# # Avatar & Social
+# avatar: /blog/assets/img/profile.jpg
+
+# social:
+#   links:
+#     - https://www.linkedin.com/in/gregorionastasi/
+#     - https://rateyourmusic.com/~Perennial_Quest
+
+# # Build settings
+# # Using jekyll-theme-minimal - fully compatible with GitHub Pages
+# remote_theme: pages-themes/minimal@v0.2.0
+
+# plugins:
+#   - jekyll-paginate
+#   - jekyll-seo-tag
+#   - jekyll-sitemap
+
+# # Theme configuration
+# date_format: "%b %d, %Y"
+
+# # Only show About in nav (other nav items removed)
+# header_pages: []
+
+# # SEO and social
+# google_site_verification: ""
+# webmaster_verifications:
+#   google: ""
+
+# defaults:
+#   - scope:
+#       path: ""
+#     values:
+#       layout: post
+#       comments: false
