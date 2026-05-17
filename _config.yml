@@ -26,37 +26,24 @@ social:
     - https://rateyourmusic.com/~Perennial_Quest
 
 # Build settings
-remote_theme: cotes2020/jekyll-theme-chirpy@latest
+# Using jekyll-theme-minimal - fully compatible with GitHub Pages
+remote_theme: pages-themes/minimal@v0.2.0
 
 plugins:
   - jekyll-paginate
   - jekyll-seo-tag
-  - jekyll-archive
   - jekyll-sitemap
 
-# Chirpy theme configuration
-theme_mode: auto  # light, dark, or auto
+# Theme configuration
 date_format: "%b %d, %Y"
 
 # Only show About in nav (other nav items removed)
 header_pages: []
 
-# Archives configuration
-archives:
-  enabled:
-    - categories
-    - tags
-  layouts:
-    category: archive-category
-    tag: archive-tag
-  permalinks:
-    category: /categories/:name/
-    tag: /tags/:name/
-
 # SEO and social
-# google_site_verification: ""
-# webmaster_verifications:
-#   google: ""
+google_site_verification: ""
+webmaster_verifications:
+  google: ""
 
 defaults:
   - scope:
